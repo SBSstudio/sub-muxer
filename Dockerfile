@@ -8,4 +8,4 @@ RUN git clone https://github.com/SBSstudio/sub-muxer
 RUN cd sub-muxer
 WORKDIR /sub-muxer
 RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+CMD python3 muxbot.py
